@@ -1,0 +1,70 @@
+  使用Docker软件容器意味着您可以将软件、操作系统和硬件配置从应用程序中抽离出来，并能拥有一个可以随处运行的标准构件模块。
+  但当您开始大量部署这些容器用于繁复的应用时，管理所有这些容器集群很快就变得复杂起来。如果可以只关注容器化的应用程序，
+  而将容器部署和调度以及集群配置和管理全部交由某项服务进行，岂不是更好？
+  
+  Using Docker containers means that you can abstract away the software operating system and hardware 
+  configuration from your app and have a standard building block that you can run anywhere. But when 
+  you start deploying lots of these containers for lots of applications,managing all of these container
+  clusters starts to get complicated pretty fast. Wouldn't it be nice if you could just focus on building
+  containerized apps, and leave the container deployment and scheduling and cluster configuration and
+  management to a service that manages all of them ?
+  
+  
+  
+  
+  
+  ECS (EC2 Container Service)是一个高度可扩展、高性能的软件容器管理服务，允许用户运行和管理分布式的应用程序。ECS 允许用户
+  通过简单的API调用，在EC2实例的集群上对Docker软件进行调度、启动和运行。您可以利用Docker构建并将应用程序打包进容器，然后利用ESC
+  将这些应用程序无缝集成到产品中。
+  
+  Amazon EC2 Container Service is a highly scalable, high-performance container management service，that
+  allows you to run and manage distributed applications. EC2 Container Service allows you to schedule,
+  launch and run Docker containers across a cluster of Amazon EC2 instances using a simple set of APIs.
+  You can build and package applications into containers with Docker and then seamlessly deploy the applications
+  into production with EC2 Container Service.
+  
+  
+  
+  
+  
+  
+  ECS 为您管理EC2实例集群，处理您的集群状态，并在您的集群上对容器进行调度、运行和监控。ECS 根据您的CPU和内存需求对容器进行调度，
+  帮助寻找集群的最佳部署位置，您也可以根据自身意愿使用自己的程序部署。使用ECS，您可以在自己的集群上运行不同类型的应用程序或任务，
+  例如，您可能有一个始终运行的Web应用程序，以及一个处理间歇任务的图像处理程序，ECS可以对这二者一起调度和运行。ECS还可以为您的集群
+  提供监控服务，告知各应用程序正在占用的资源量以及还剩多少资源可用于新任务。 无论您是要处理几十或上千个集群，ECS都可以让您快速部署、
+  更新和削减容器，从而轻松运行一切构成您应用程序的不同任务，例如Web服务器、队列、数据库、API后端及后台程序。您可以从AWS管理控制台
+  或通过AWS SDK访问ECS。ECS结合了Docker的一致性构建和部署经验，以及EC2的所有优点，您只需为自己集群中的EC2实例及使用的其他AWS
+  资源付费，而使用ECS则无需额外付费。
+  
+  
+  EC2 Container Service manages a cluster of Amazon EC2 instances for you and takes care of the state of your
+  cluster as well as scheduling, running and monitoring containers across your cluster. EC2 Container Service 
+  schedules containers to help find the optimal placement based on your CPU and memory needs，and you can use
+  your own schedulers with EC2 Container Service if you would like. 
+  
+  With EC2 Container Service you can run a mix of different types of applications or tasks across your cluster，
+  For example, you might have a web app that runs all the time and an image-processing worker that processess
+  intermittent tasks, EC2 Container Service can schedule and run these together.
+  
+  
+  EC2 Container Service also monitors your cluster and tells you how much resources are being used by each application 
+  and how much is left for new tasks.
+  
+  EC2 Container Service allows you to quickly deploy, update and rollback containers regardless of whether you are
+  dealing with tens or thousands of containers, making it easy to run all the different tasks that make up your 
+  applications such as web servers,queues,databases,API backends and background workers. You can access EC2 Container
+  Service from an AWS Management Console or through the AWS SDK.
+  
+  EC2 Container Service combines the consistent build and deploy experience of Docker with all the benefits of EC2,
+  and best of all you just pay for the EC2 instances in your cluster and any other AWS resources used. There is no
+  additional charge for using EC2 Container Service.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
